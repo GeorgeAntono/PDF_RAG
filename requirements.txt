@@ -5,3 +5,6 @@ langchain_openai
 python-dotenv
 langchain-community
 langchain-chroma
+chainlit
+prompt_toolkit
+literalai==0.0.625

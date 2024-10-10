@@ -33,7 +33,7 @@ def load_documents():
 
 def split_documents_flexibly(documents: list[Document]):
     section_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=800,  # Adjust based on your use case
+        chunk_size=800,
         chunk_overlap=80,
         length_function=len,
         is_separator_regex=False  # No strict regex for sections
